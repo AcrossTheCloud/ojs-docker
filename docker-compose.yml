@@ -1,7 +1,7 @@
 version: '3'
 services:
     php-apache:
-        image: chialab/php:7.0-apache
+        image: chialab/php:5.6-apache
         restart: always
         volumes:
             - "./public_html:/var/www/html"
